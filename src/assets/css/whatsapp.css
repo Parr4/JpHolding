@@ -1,0 +1,22 @@
+.wspicon{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+
+    height: 15vh;
+    border-radius: 30px;
+
+    box-shadow: 
+        0 0  30px #108500d2, inset 0px 0px 300px #0f850093;
+        transition: all 0.5s;
+
+
+}
+
+.wspicon:hover{
+    /* right: 0;
+    bottom: 0; */
+    height: 20vh;
+
+}

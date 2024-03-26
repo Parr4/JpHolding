@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: darkred;
+    margin: 0;
+    height: 10vh;
+    color: white;
+
+
+}
+
+.jpholding {
+    background-color: whitesmoke;
+}
+
+.estacionamiento {
+    background-color: navy;
+    color: white;
+}
+
+.nav_link {
+    color: white;
+}

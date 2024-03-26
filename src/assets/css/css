@@ -1,0 +1,81 @@
+*{    list-style: none;
+    }
+iframe{
+    overflow-x: hidden;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 67vh;
+    
+}
+
+
+.card{
+    vertical-align: middle;
+
+}
+.card-body{
+    
+    height: 30vh;
+    align-items: center;
+    text-align: center;
+
+}
+.card-title{
+    margin-top: 15px;
+}
+.Abierto{
+    background-color: green;
+    color: white;
+    /* -webkit-text-stroke: 1px black; */
+    padding: 10px;
+}
+.Cerrado{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    /* -webkit-text-stroke: 1px black; */
+}
+h1{
+    text-align: center;
+}
+.banner{
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw; */
+    background-color: navy;
+    color: white;
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+    
+}
+.carteles{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cartel{
+    border: 1px black solid;
+    flex: 1 1 auto;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+
+}
+.valores{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cositas{
+    text-align: left;
+}
+.precios{
+    text-align: right;
+}

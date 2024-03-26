@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+html{
+  scroll-snap-type: y mandatory;
+  max-width: 100%; overflow-x: hidden;
+}
+.page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+  padding-top: 10vh;
+  /* background-color: aquamarine; */
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.mainBanner{
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+}
+.normalTitle{    
+  background-color: navy;
+  color: white;
+  margin-top: -5px;
+} .normalTitle>*{
+  padding: 7px;
+}.normalTitle>h1{
+  text-transform: uppercase;
+}
+.foooter{
+  color: aqua;
+  scroll-snap-align: center;
+}
+
+
+

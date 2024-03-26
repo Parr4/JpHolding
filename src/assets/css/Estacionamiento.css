@@ -1,0 +1,62 @@
+.banner {
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw; */
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    margin-top: -5px;
+}
+
+.Abierto {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.Cerrado {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.gmaps {
+    position: relative;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.horario {
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.titulocard {
+    text-align: center;
+    padding-top: 15px;
+    background-color: orange;
+}
+
+.listacard{
+    background-color: red;
+}
+
+/* .test {
+    background-color: blueviolet;
+    height: 100%;
+} */
+
+
+/* h2{
+    background-color: aquamarine;
+    font-weight: bolder;
+    text-align: center;
+    height: 10%;
+margin: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+} */
